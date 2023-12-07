@@ -1,0 +1,46 @@
+<!-- res/layout/custom_dialog_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="264dp"
+        android:layout_height="24dp" />
+
+    <ImageView
+        android:id="@+id/dialogImageBuscarContacto"
+        android:layout_width="188dp"
+        android:layout_height="198dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/dialogNombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Nombre"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialogCorreoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="Correo"
+        android:textColor="#808080"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/agregarContactoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Agregar" />
+
+</LinearLayout>

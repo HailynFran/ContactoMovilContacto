@@ -1,0 +1,38 @@
+<!-- res/layout/change_email_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMBIAR CORREO"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="378dp"
+        android:layout_height="32dp" />
+
+    <EditText
+        android:id="@+id/editTextNewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo correo electrónico" />
+
+    <Space
+        android:layout_width="378dp"
+        android:layout_height="29dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirme nuevo correo electronico"
+        android:inputType="textEmailAddress" />
+
+</LinearLayout>

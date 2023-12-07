@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="mi_color">#c21c0a</color>
+    <color name="appNight">#551480</color>
+    <color name="appClaro">#8d3bd1</color>
+
+
+</resources>

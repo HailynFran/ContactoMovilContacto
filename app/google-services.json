@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558149025271",
+    "project_id": "contactomovil-ec57d",
+    "storage_bucket": "contactomovil-ec57d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558149025271:android:ee6dd0a4a18210303c02f2",
+        "android_client_info": {
+          "package_name": "com.example.contactomovilcontacto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaruoXA13OtKLUIYA9d7z1nc3gmCg7Hqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageViewEnGrande"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_image_background"
+        android:scaleType="fitCenter" />
+
+    <Space
+        android:layout_width="382dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnCambiarImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Cambiar Imagen"
+        android:textColor="#862E95" />
+
+</LinearLayout>
